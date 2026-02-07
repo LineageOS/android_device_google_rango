@@ -135,7 +135,7 @@ system_ext/lib64/com.google.edgetpu_app_service-V6-ndk.so
 system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so
 
 # Fold extensions
-system_ext/framework/comet-services.jar
+system_ext/framework/rango-services.jar
 
 # Hotword
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml

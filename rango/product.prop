@@ -41,5 +41,5 @@ ro.com.google.ime.kb_pad_port_b=11.2
 ro.support_one_handed_mode=false
 
 # Quick start
-ro.quick_start.device_id=comet
+ro.quick_start.device_id=rango
 ro.quick_start.oem_id=00e0

@@ -72,9 +72,9 @@ extract_fns: extract_fns_user_type = {
 }
 
 module = ExtractUtilsModule(
-    'comet',
+    'rango',
     'google',
-    device_rel_path='device/google/comet/comet',
+    device_rel_path='device/google/rango/rango',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,

@@ -13,7 +13,7 @@ TARGET_SCREEN_DENSITY := 390
 BOOT_SECURITY_PATCH := 2026-02-05
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
-include device/google/zumapro/BoardConfig-common.mk
+include device/google/laguna/BoardConfig-common.mk
 
 # Kernel modules
 BOARD_VENDOR_KERNEL_RAMDISK_KERNEL_MODULES_BLOCKLIST_FILE := $(DEVICE_PATH)/recovery/modules.blocklist.vendor_kernel_boot

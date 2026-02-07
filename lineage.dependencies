@@ -1,10 +1,10 @@
 [
   {
-    "repository": "android_device_google_zumapro",
-    "target_path": "device/google/zumapro"
+    "repository": "android_device_google_laguna",
+    "target_path": "device/google/laguna"
   },
   {
-    "repository": "android_device_google_comet-kernels",
-    "target_path": "device/google/comet-kernels"
+    "repository": "android_device_google_rango-kernels",
+    "target_path": "device/google/rango-kernels"
   }
 ]

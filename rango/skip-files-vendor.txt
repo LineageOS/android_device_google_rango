@@ -72,7 +72,7 @@ bin/hostname
 bin/hw/android.hardware.boot-service.default-pixel
 bin/hw/android.hardware.drm-service.clearkey
 bin/hw/android.hardware.gatekeeper-service.trusty
-bin/hw/android.hardware.health-service.zumapro
+bin/hw/android.hardware.health-service.laguna
 bin/hw/android.hardware.health.storage-service.default
 bin/hw/android.hardware.nfc-service.st
 bin/hw/android.hardware.power-service.pixel-libperfmgr
@@ -260,13 +260,13 @@ etc/fstab.zram.60p
 etc/fstab.zram.6g
 etc/fstab.zuma
 etc/fstab.zuma-fips
-etc/fstab.zumapro
-etc/fstab.zumapro-fips
+etc/fstab.laguna
+etc/fstab.laguna-fips
 etc/group
 etc/init/android.hardware.boot-service.default-pixel.rc
 etc/init/android.hardware.drm-service.clearkey.rc
 etc/init/android.hardware.gatekeeper-service.trusty.rc
-etc/init/android.hardware.health-service.zumapro.rc
+etc/init/android.hardware.health-service.laguna.rc
 etc/init/android.hardware.power-service.pixel-libperfmgr.rc
 etc/init/android.hardware.secure_element_gto.rc
 etc/init/android.hardware.security.keymint-service.rust.trusty.rc
@@ -371,7 +371,7 @@ etc/vintf/compatibility_matrix.xml
 etc/vintf/manifest.xml
 etc/vintf/manifest/android.hardware.drm-service.clearkey.xml
 etc/vintf/manifest/android.hardware.gatekeeper-service.trusty.xml
-etc/vintf/manifest/android.hardware.health-service.zumapro.xml
+etc/vintf/manifest/android.hardware.health-service.laguna.xml
 etc/vintf/manifest/android.hardware.power-service.pixel.xml
 etc/vintf/manifest/android.hardware.secure_element_gto.xml
 etc/vintf/manifest/android.hardware.security.keymint-service.rust.trusty.xml
@@ -600,44 +600,44 @@ odm/etc/selinux/odm_sepolicy.cil
 odm/etc/selinux/odm_service_contexts
 odm_dlkm/etc/build.prop
 vendor_dlkm/etc/build.prop
-vendor_dlkm/etc/debug_api/init.insmod.comet.cfg
-vendor_dlkm/etc/debug_kmemleak/init.insmod.comet.cfg
-vendor_dlkm/etc/debug_locking/init.insmod.comet.cfg
-vendor_dlkm/etc/debug_memory/init.insmod.comet.cfg
-vendor_dlkm/etc/debug_memory_accounting/init.insmod.comet.cfg
-vendor_dlkm/etc/init.insmod.comet.cfg
-vendor_dlkm/etc/kasan/init.insmod.comet.cfg
+vendor_dlkm/etc/debug_api/init.insmod.rango.cfg
+vendor_dlkm/etc/debug_kmemleak/init.insmod.rango.cfg
+vendor_dlkm/etc/debug_locking/init.insmod.rango.cfg
+vendor_dlkm/etc/debug_memory/init.insmod.rango.cfg
+vendor_dlkm/etc/debug_memory_accounting/init.insmod.rango.cfg
+vendor_dlkm/etc/init.insmod.rango.cfg
+vendor_dlkm/etc/kasan/init.insmod.rango.cfg
 
 # Exclude overlays, symlinks and extra files that we override
 
 # Overlays
-overlay/DMService__comet__auto_generated_rro_vendor.apk
-overlay/DeviceDiagnostics__comet__auto_generated_rro_vendor.apk
-overlay/Flipendo__comet__auto_generated_rro_vendor.apk
-overlay/Launcher3QuickStep__comet__auto_generated_rro_vendor.apk
-overlay/NexusLauncherRelease__comet__auto_generated_rro_vendor.apk
+overlay/DMService__rango__auto_generated_rro_vendor.apk
+overlay/DeviceDiagnostics__rango__auto_generated_rro_vendor.apk
+overlay/Flipendo__rango__auto_generated_rro_vendor.apk
+overlay/Launcher3QuickStep__rango__auto_generated_rro_vendor.apk
+overlay/NexusLauncherRelease__rango__auto_generated_rro_vendor.apk
 overlay/PixelNfcOverlayCommon.apk
-overlay/SettingsGoogle__comet__auto_generated_rro_vendor.apk
-overlay/SettingsProvider__comet__auto_generated_rro_vendor.apk
-overlay/StorageManagerGoogle__comet__auto_generated_rro_vendor.apk
-overlay/SystemUIGoogle__comet__auto_generated_rro_vendor.apk
-overlay/TeleService__comet__auto_generated_rro_vendor.apk
-overlay/Traceur__comet__auto_generated_rro_vendor.apk
-overlay/framework-res__comet__auto_generated_rro_vendor.apk
+overlay/SettingsGoogle__rango__auto_generated_rro_vendor.apk
+overlay/SettingsProvider__rango__auto_generated_rro_vendor.apk
+overlay/StorageManagerGoogle__rango__auto_generated_rro_vendor.apk
+overlay/SystemUIGoogle__rango__auto_generated_rro_vendor.apk
+overlay/TeleService__rango__auto_generated_rro_vendor.apk
+overlay/Traceur__rango__auto_generated_rro_vendor.apk
+overlay/framework-res__rango__auto_generated_rro_vendor.apk
 
 # beta
-overlay/DMService__comet_beta__auto_generated_rro_vendor.apk
-overlay/DeviceDiagnostics__comet_beta__auto_generated_rro_vendor.apk
-overlay/Flipendo__comet_beta__auto_generated_rro_vendor.apk
-overlay/Launcher3QuickStep__comet_beta__auto_generated_rro_vendor.apk
-overlay/NexusLauncherRelease__comet_beta__auto_generated_rro_vendor.apk
-overlay/SettingsGoogle__comet_beta__auto_generated_rro_vendor.apk
-overlay/SettingsProvider__comet_beta__auto_generated_rro_vendor.apk
-overlay/StorageManagerGoogle__comet_beta__auto_generated_rro_vendor.apk
-overlay/SystemUIGoogle__comet_beta__auto_generated_rro_vendor.apk
-overlay/TeleService__comet_beta__auto_generated_rro_vendor.apk
-overlay/Traceur__comet_beta__auto_generated_rro_vendor.apk
-overlay/framework-res__comet_beta__auto_generated_rro_vendor.apk
+overlay/DMService__rango_beta__auto_generated_rro_vendor.apk
+overlay/DeviceDiagnostics__rango_beta__auto_generated_rro_vendor.apk
+overlay/Flipendo__rango_beta__auto_generated_rro_vendor.apk
+overlay/Launcher3QuickStep__rango_beta__auto_generated_rro_vendor.apk
+overlay/NexusLauncherRelease__rango_beta__auto_generated_rro_vendor.apk
+overlay/SettingsGoogle__rango_beta__auto_generated_rro_vendor.apk
+overlay/SettingsProvider__rango_beta__auto_generated_rro_vendor.apk
+overlay/StorageManagerGoogle__rango_beta__auto_generated_rro_vendor.apk
+overlay/SystemUIGoogle__rango_beta__auto_generated_rro_vendor.apk
+overlay/TeleService__rango_beta__auto_generated_rro_vendor.apk
+overlay/Traceur__rango_beta__auto_generated_rro_vendor.apk
+overlay/framework-res__rango_beta__auto_generated_rro_vendor.apk
 
 overlay/UwbOverlayCT3/UwbOverlayCT3Gsi.apk
 
