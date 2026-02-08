@@ -1,4 +1,2 @@
-extra/private/google-modules/touch/common/heatmap.ko
-extra/private/google-modules/touch/common/goog_touch_interface.ko
-extra/private/google-modules/touch/goodix/goodix_brl_touch.ko
+extra/private/google-modules/touch/fts/fst2/fst2.ko
 extra/private/google-modules/touch/synaptics/syna_gtd/syna_touch.ko
