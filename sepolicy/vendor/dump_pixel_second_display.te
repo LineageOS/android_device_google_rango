@@ -1,0 +1,4 @@
+pixel_bugreport(dump_pixel_second_display)
+
+allow dump_pixel_second_display sysfs_display:dir search;
+allow dump_pixel_second_display sysfs_display:file r_file_perms;
