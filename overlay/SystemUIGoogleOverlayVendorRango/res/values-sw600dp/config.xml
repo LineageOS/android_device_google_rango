@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Whether to use the split 2-column notification shade -->
+    <!-- TODO(b/411449027): This config is deprecated. Remove with the launch of SceneContainer. -->
+    <bool name="config_use_split_notification_shade">true</bool>
+</resources>

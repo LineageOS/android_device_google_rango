@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Biometrics Face enroll education dimensions-->
+    <dimen name="illustration_lottie_height">380dp</dimen>
+    <dimen name="lottie_animation_view_margin_top">32dp</dimen>
+</resources>

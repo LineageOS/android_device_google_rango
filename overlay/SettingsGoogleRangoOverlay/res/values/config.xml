@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- The ratio to use when using the two-pane settings layout -->
+    <item name="config_activity_embed_split_ratio" format="float" type="dimen">0.5</item>
+</resources>

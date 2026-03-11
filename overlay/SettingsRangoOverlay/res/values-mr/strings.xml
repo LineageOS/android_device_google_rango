@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- [CHAR LIMIT=50] Title for always-on display that will enable the wallpaper to be visible-->
+    <string name="doze_always_on_wallpaper_title">अंतर्गत डिस्प्लेवर वॉलपेपर दाखवा</string>
+
+    <!-- [CHAR LIMIT=NONE] Description for always-on display that will enable the wallpaper to be visible-->
+    <string name="doze_always_on_wallpaper_description">फोन अनफोल्ड केल्यावर, अंतर्गत डिस्प्लेवर लॉक स्‍क्रीन वॉलपेपर दिसतो</string>
+</resources>

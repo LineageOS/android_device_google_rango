@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- [CHAR LIMIT=50] Title for always-on display that will enable the wallpaper to be visible-->
+    <string name="doze_always_on_wallpaper_title">အတွင်းဖန်သားပြင်တွင် နောက်ခံပြပါ</string>
+
+    <!-- [CHAR LIMIT=NONE] Description for always-on display that will enable the wallpaper to be visible-->
+    <string name="doze_always_on_wallpaper_description">ဖုန်းဖြန့်ထားသောအခါ အတွင်းဖန်သားပြင်တွင် လော့ခ်မျက်နှာပြင်၏ နောက်ခံကို မြင်ရသည်</string>
+</resources>

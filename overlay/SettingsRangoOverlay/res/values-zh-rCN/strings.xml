@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- [CHAR LIMIT=50] Title for always-on display that will enable the wallpaper to be visible-->
+    <string name="doze_always_on_wallpaper_title">在内屏上显示壁纸</string>
+
+    <!-- [CHAR LIMIT=NONE] Description for always-on display that will enable the wallpaper to be visible-->
+    <string name="doze_always_on_wallpaper_description">手机处于展开状态时，内屏上会显示锁屏壁纸</string>
+</resources>

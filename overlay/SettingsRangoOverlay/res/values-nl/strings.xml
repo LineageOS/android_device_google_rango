@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- [CHAR LIMIT=50] Title for always-on display that will enable the wallpaper to be visible-->
+    <string name="doze_always_on_wallpaper_title">Achtergrond tonen op scherm binnenkant</string>
+
+    <!-- [CHAR LIMIT=NONE] Description for always-on display that will enable the wallpaper to be visible-->
+    <string name="doze_always_on_wallpaper_description">De achtergrond van het vergrendelscherm is zichtbaar op het scherm aan de binnenkant als de telefoon is opengevouwen</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- [CHAR LIMIT=50] Title for always-on display that will enable the wallpaper to be visible-->
+    <string name="doze_always_on_wallpaper_title">បង្ហាញផ្ទាំង​រូបភាពនៅលើអេក្រង់ខាងក្នុង</string>
+
+    <!-- [CHAR LIMIT=NONE] Description for always-on display that will enable the wallpaper to be visible-->
+    <string name="doze_always_on_wallpaper_description">អាចមើលឃើញផ្ទាំង​រូបភាពអេក្រង់ចាក់សោនៅលើអេក្រង់ខាងក្នុង នៅពេលលាទូរសព្ទ</string>
+</resources>

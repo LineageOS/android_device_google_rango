@@ -27,32 +27,29 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    ConnectivityResourcesOverlayCometOverride \
-    DMServiceOverlayVendorComet \
-    FrameworkResOverlayProductComet \
-    FrameworkResOverlayVendorComet \
-    GRilServiceOverlay_CT3 \
+    ConnectivityResourcesOverlayRangoOverride \
+    DMServiceOverlayVendorRango \
+    FrameworkResOverlayProductRango \
+    FrameworkResOverlayVendorRango \
+    GrilServiceOverlay \
     LargeScreenConfigOverlay \
     LargeScreenSettingsProviderOverlay \
-    NexusLauncherReleaseOverlayVendorComet \
-    PixelDisplayServiceOverlayProductComet \
-    PixelNfcOverlayComet \
-    PixelUwbOverlayCT3 \
-    PixelWifiOverlay2024Comet \
-    SafetyRegulatoryInfoOverlayProductComet \
-    SettingsCometOverlay \
-    SettingsGoogleCometOverlay \
-    SettingsGoogleOverlayProductComet \
-    SettingsGoogleOverlayVendorComet \
-    SettingsProviderOverlayVendorComet \
+    PixelDisplayServiceOverlayProductRango \
+    PixelNfcOverlayRango \
+    PixelUwbOverlayRG5 \
+    PixelWifiOverlay2025Rango \
+    SafetyRegulatoryInfoOverlayProductRango \
+    SettingsGoogleOverlayProductRango \
+    SettingsGoogleOverlayVendorRango \
+    SettingsGoogleRangoOverlay \
+    SettingsProviderOverlayProductRango \
+    SettingsRangoOverlay \
     SfpsOverlay \
-    SystemUIGoogleOverlayProductComet \
-    SystemUIGoogleOverlayVendorComet \
-    TeleServiceOverlayVendorComet \
-    TelecomOverlayProductComet
+    SystemUIGoogleOverlayProductRango \
+    SystemUIGoogleOverlayVendorRango
 
 PRODUCT_PACKAGES += \
-    ApertureOverlayComet
+    ApertureOverlayRango
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/product.prop
