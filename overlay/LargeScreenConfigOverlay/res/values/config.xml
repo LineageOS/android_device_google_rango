@@ -40,11 +40,6 @@
          Applicable only if ignoreOrientationRequest is enabled. -->
     <bool name="config_letterboxIsDisplayRotationImmersiveAppCompatPolicyEnabled">true</bool>
 
-    <!-- Corners radius for activity presented the letterbox mode. Values < 0 enable rounded
-         corners with radius equal to min between device bottom corner radii. Default 0 value turns
-         off rounded corners logic in LetterboxUiController. -->
-    <integer name="config_letterboxActivityCornersRadius">-1</integer>
-
     <!-- Vertical position of a center of the letterboxed app window.
         0 corresponds to the upper side of the screen and 1 to the lower side. If given value < 0
         or > 1 it is ignored and for non-tabletop mode central position is used (0.5); for
