@@ -33,11 +33,10 @@ PRODUCT_PACKAGES += \
     LargeScreenSettingsProviderOverlay \
     PixelDisplayServiceOverlayProductRango \
     PixelNfcOverlayRango \
-    PixelUwbOverlayRG5 \
+    PixelUwbOverlayRG5Laguna \
     PixelWifiOverlay2025Rango \
     SafetyRegulatoryInfoOverlayProductRango \
     SettingsGoogleOverlayProductRango \
-    SettingsGoogleOverlayVendorRango \
     SettingsGoogleRangoOverlay \
     SettingsProviderOverlayProductRango \
     SettingsRangoOverlay \
