@@ -47,6 +47,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ApertureOverlayRango
 
+# Preinstalled packages
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/sysconfig/preinstalled-packages-prebuilt-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-prebuilt-product.xml \
+    $(DEVICE_PATH)/sysconfig/preinstalled-packages-prebuilt-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/preinstalled-packages-prebuilt-system_ext.xml
+
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/product.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/system_ext.prop
